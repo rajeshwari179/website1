@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "./Page.module.css"; // Import the CSS module
+import styles from "./page.module.css"; // Import the CSS module
 import dummy from "/src/dummy.jpeg"; // Import your image
 import githubIcon from "/src/git.webp"; // Import your GitHub icon
 import linkedinIcon from "/src/linkedin.png"; // Import your LinkedIn icon
