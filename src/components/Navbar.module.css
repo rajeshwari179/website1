@@ -1,0 +1,64 @@
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "tumba-text-variable", serif;;
+    color:rgb(73, 175, 73);
+    font-variation-settings: "wght" 400;
+    /* width: 100%; */
+    /* height: 5vh; */
+    border-top: 1px solid var(--darker-accent-color);
+    font-size: 2rem; 
+    padding: 1.3rem; 
+    /* border-bottom: 5px double var(--darker-accent-color); */
+  }
+  
+  .navbar p {
+    margin: 0 1.4rem;
+    transition: all 0.4s ease-in-out;
+    
+  }
+  .navbar p.active {
+    background-color:#e0e1eb;
+    border-radius: 1.9rem;
+    padding: 0.7rem;
+    color : #0e0d0d;
+    
+  }
+  .navbar p.inactive:hover {
+    text-decoration-style: solid;
+    text-decoration-thickness: 1.2px;
+    border-radius: 30px;
+    text-decoration-color: rgb(112, 33, 81);
+    padding: 5px;
+    text-shadow: 0px 0px 23px rgb(199, 206, 199);
+    color: #a8b1f2;; /* Change text color to red on hover */
+}
+
+
+   
+
+  /* .navbar p.active:hover {
+   background-color:rgb(146, 228, 228);
+   
+  }
+   */
+   @media screen and (max-width: 480px) {
+    .navbar {
+      padding: 5px;
+    }
+  
+    .navbar p {
+      font-size: 14px;
+    }
+  
+    .navbar p.active {
+      padding: 3px;
+    }
+  
+    .navbar p.inactive:hover {
+      padding: 3px;
+    }
+  }

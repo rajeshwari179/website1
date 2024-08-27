@@ -1,0 +1,32 @@
+.experience
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin : 1vmax;
+  padding: 1vmax;
+  width: 100%;
+}
+.left {
+  
+  height: 200px;
+  width: 200px; 
+
+  border-radius: 30px;
+  flex-grow: 2;
+  
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+}
+
+.right {
+  
+  height: 100%; 
+  width: 400px; 
+
+  flex-grow: 50;
+  padding: 2vmax;
+}

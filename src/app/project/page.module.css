@@ -1,0 +1,101 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #262525;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the image horizontally */
+  justify-content: center; /* Center the image vertically */
+  flex-grow: 2;
+  width: 50%; /* Make sure the top section takes the full width */
+}
+
+.top img {
+  max-width: 100%;
+  height: auto; 
+  object-fit: cover; 
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+  max-width: var(--max-width);
+  padding: 1rem 0;
+  height: 10vh;
+  border-top: 1px solid rgba(var(--card-border-rgb), 0.3);
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+
+
+  
+}
+
+/* page.module.css */
+
+.project {
+  cursor: pointer;
+  display: flex;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.top {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.right {
+  padding: 10px;
+}
+
+.projectDetails {
+  padding: 20px;
+}
+
+.projectImage {
+  margin-top: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column;
+}
+
+/* @media (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+
+  .project .top {
+    width: 100%;
+    height: auto;
+  }
+
+  .project .right {
+    width: 100%;
+  }
+} */

@@ -1,0 +1,44 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* height: 100%; */
+  /* width:  100%; */
+  padding: 0 2vmax;
+  padding-bottom: 2vmax;
+  flex-grow: 1;
+  margin-top: 2vh;
+}
+
+.left{
+  /* background-color: rgb(38, 47, 56); */
+  border-radius:30px ;
+  flex-grow: 2;
+  aspect-ratio: 1/1;
+
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
+  /* max-width: 400px; */
+}
+
+.left img{
+  border-radius: 30px;
+  max-width: 50vw;
+  max-height: 50vh;
+}
+
+.right{
+ 
+  flex-grow: 50;
+  height: 100%;
+  padding :  2vmax;
+} 
+
+
+
+
+
+
+/* -------------------------- */
